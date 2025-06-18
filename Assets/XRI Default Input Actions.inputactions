@@ -1,0 +1,62 @@
+{
+    "name": "XRI Default Input Actions",
+    "maps": [
+        {
+            "name": "XRI RightHand",
+            "id": "b974adf9-95d5-4ed3-a556-d2d35c073f8a",
+            "actions": [
+                {
+                    "name": "Teleport",
+                    "type": "Button",
+                    "id": "248089cf-9f08-4743-9377-c837e76eceae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "abd69bf8-f70d-4428-a526-156b3ca0231d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRI LeftHand",
+            "id": "2a6a4dab-d22f-4138-9f79-0edad5dee493",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "956ad727-72df-42ea-b66e-e62c0fecb952",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "36c63dca-dcb3-4082-9738-1b5a72f79b42",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
